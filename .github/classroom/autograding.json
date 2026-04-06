@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 - Example Case",
+      "setup": "javac src/Solution.java",
+      "run": "java -cp src Solution",
+      "input": "3\n10 50 20\n3\nApple Orange Banana",
+      "output": "Max Integer: 50\nMax String: Orange",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "Test 2 - Negative Numbers and Lexicographical Strings",
+      "setup": "javac src/Solution.java",
+      "run": "java -cp src Solution",
+      "input": "4\n-5 -10 -2 -8\n4\nZebra Ant Elephant Dog",
+      "output": "Max Integer: -2\nMax String: Zebra",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
